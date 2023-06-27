@@ -1,0 +1,59 @@
+
+26/06
+
+Hecho:
+	DlgGenerarReportes:
+		-Listo reporte Compración de cajas vendidas con la cantidad óptima (creadas las reglas (If, else), 		números , orden para resultado que se vea mejor , agregado 	String.format, etc)
+
+Falta: 
+	DlgGenerarReportes:
+		-Reporte Estadística sobre el precio
+
+
+
+
+25/06
+
+Hecho: 
+DlgProyecto: Corregido cantidad optima, nombres con tilde.
+DlgGenerarReportes: 
+	-Listo reporte "Ventas por modelo" (corregido cifras, corregido % de cuota diaria, números , orden, agregado String.format, etc) 
+	-Listo reporte "Comparación de precios con el precio promedio" (corregido cifras, creadas las reglas (If, else), números , orden para resultado que se vea ordenado, agregado 	String.format, etc) 
+
+Falta: 
+DlgGenerarReportes:
+	-Reporte Compración de cajas vendidas con la cantidad óptima
+	-Reporte Estadística sobre el precio
+
+
+
+----------------
+
+24/06
+
+DlgGenerarReportes: 
+	Falta: Hacer que los metodos de "estadisticaSobreelPrecio" (fila 311) hagan match 
+		Completar el metodo:"mostrarEstadisticaPrecio" (fila 358)
+
+DlgVender (Completado): 
+	Hecho: Creado código para que, cada 5 ventas, aparezca el pop up con las cifras e información correcta.
+
+
+
+-------------------
+23/06
+
+DlgVender: 
+	Hecho: 
+	Corregido, ordenado y comentado cada proceso. Creado código para que, cada 5 ventas, aparezca el pop up.
+	Falta: El pop up muestra las cifras correctas.
+
+DlgGenerarReportes: 
+
+	Hecho: 
+	Corregido error inicial
+	Desarrollado "comparaciondeCajasVendidasconlacantidadOptima"
+	Creado los metodos dentro para :"estadisticaSobreelPrecio" 
+
+	Falta: Hacer que los metodos de "estadisticaSobreelPrecio" (fila 311) hagan match 
+		Completar el metodo:"mostrarEstadisticaPrecio" (fila 358)
